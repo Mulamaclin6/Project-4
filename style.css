@@ -1,0 +1,126 @@
+
+.container {
+    border: 2px solid green;
+    background-color: yellow;
+    margin: 2px;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+}
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .user-image {
+    height: 60px;
+    border-radius: 50%;
+  }
+  .username {
+    font-size: 20px; 
+    font-weight: bold;
+    margin-bottom: 5px; /* Adjusted margin */
+  }
+
+  .points-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .earnings-label {
+    font-size: 12px; /* Adjusted font size for earnings labels */
+    display: flex;
+    align-items: center; /* Align items vertically in the earnings labels */
+  }
+
+  .vertical-separator {
+    height: 30px; /* Adjusted height for better visual distinction */
+    width: 1px;
+    background-color: black; /* Separator color */
+    margin: 0 5px; /* Adjusted margin */
+  }
+.first {
+    font-family: arial narrow bold;
+    font-size: normal;
+    vertical-align: baseline;
+    text-transform: lowercase;
+    letter-spacing: 0 auto;
+    font-style: italic;
+
+}
+h1 {
+    font-family: italic;
+    font-weight: bold;
+    color: green;
+    line-height: 2;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px black;
+    font-size:xx-large;
+}
+h2, h3, h4 {
+    font-family: italic;
+    color: green;
+    line-height: 2;
+    text-transform: capitalize;
+}
+form {
+    font-family: arial narrow bold;
+    font-size: normal;
+    vertical-align: baseline;
+    text-transform: capitalize;
+    letter-spacing: 0 auto;
+    font-style: italic;
+    text-align: justify;
+}
+p {
+    font-family: arial italic;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: justify ;
+    
+
+}
+ul,li {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration:none
+    font-weight: 500;
+    background-color: aqua;
+    font-style: italic;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.enroll button {
+   background-color: #4CAF50;
+   font-size: 16px;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+
+
+}
+dd, dt {
+    font-family: serif;
+    font-style: italic;
+    line-height: 2;
+    text-align: center;
+    color: black;
+   
+}
+.second {
+    border: 1px dotted green;
+
+}
+img {
+    alignment: center;
+    text-shadow: 2px 1px 2px red;
+}
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: green;
+    font-size: 48px;
+    font-weight: bold;
+}
